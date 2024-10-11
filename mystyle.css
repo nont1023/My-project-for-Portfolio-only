@@ -295,3 +295,93 @@ input[type="range"]::-moz-range-thumb {
 input[type="range"]:hover {
     opacity: 1;
 }
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    .movie {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .movie img {
+        height: auto;
+    }
+
+    .video-container {
+        width: 100%;
+        height: auto;
+    }
+
+    input[type="range"] {
+        width: 95%;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    h5 {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .profile {
+        top: 5px;
+        right: 5px;
+    }
+
+    .search {
+        top: 10px;
+        right: 10px;
+    }
+
+    .dropdown {
+        top: 60px;
+        right: 5px;
+    }
+
+    #playPauseBtn {
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+    }
+    
+    input[type="range"] {
+        width: 95%;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .movie {
+        width: 48%;
+        margin: 20px 1%;
+    }
+
+    .video-container {
+        width: 100%;
+    }
+
+    input[type="range"] {
+        width: 90%;
+    }
+}
