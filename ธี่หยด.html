@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="manu">
+                <a href="index.html">Home</a>
+                <a href="manu/Horror.html">Horror</a>
+                <a href="manu/Anime.html">Anime</a>
+                <a href="manu/Romantic.html">Romantic</a>
+                <a href="manu/Action.html">Action</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="Name">
+            <h2>ธี่หยด</h2>
+        </div>
+    </section>
+    <div class="video-container">
+        <video id="myVideo" src="video/ธี่หยด - Official Trailer.mp4" width="1000" ></video>
+        <img id="playPauseBtn" src="img/play-icon.png" alt="Play" class="play" style="cursor:pointer; width: 60px; height: auto;">
+        <input type="range" id="progressBar" value="0" max="100" style="width: 100%; cursor: pointer;">
+    </div>
+    <div class="story">
+        <h4>เรื่องย่อ</h4>
+        <h5>ปีพุทธศักราช ๒๕๑๕ เกิดเหตุการณ์สุดสะพรึงขวัญขึ้น เด็กสาวในหมู่บ้านห่างไกลแถบ จ.กาญจนบุรี เสียชีวิตอย่างเป็นปริศนา ข่าวเด็กสาวตายอย่างน่าสยดสยองแพร่สะพัดไปอย่างรวดเร็ว ในขณะเดียวกัน หลังจาก "ยักษ์" ปลดประจำการ เขากลับมาช่วยงานที่บ้านตามคำสั่งของผู้เป็นพ่อ "หยาด" น้องสาวของยักษ์ สัมผัสได้ถึงภัยเร้นลับที่คืบคลานเข้ามาในหมู่บ้าน <br> เมื่อ "แย้ม" น้องสาวของเธอเริ่มมีอาการแปลก ๆ หลังจากเจอหญิงชุดดำลึกลับ ระหว่างกลับจากโรงเรียน อาการของแย้มทรุดลงเรื่อย ๆ พร้อมท่าทีประหลาดอย่างหาคำตอบไม่ได้ บทสรุปเรื่องเล่าที่เป็นตำนาน หญิงชุดดำที่มาพร้อมกับเสียง “ธี่หยด” ความน่ากลัวที่ไม่มีวิธีรับมือ ความสยองที่คืบคลานเข้ามาสู่ครอบครัวนี้อย่างไม่มีเหตุผล ยักษ์จึงต้องทำทุกวิถีทางเพื่อให้แย้มหายจากอาการประหลาด และทำให้ครอบครัวมีชีวิตรอดไปจากเสียงเพรียกสยองยามค่ำคืน... สัมผัสประสบการณ์หลอนกว่าที่เคย!</br></h5>
+    </div>
+    
+    <div class="container">
+        <div class="profile">
+            <img src="img/IconPF.png" alt="Profile Picture" class="profile-icon">
+        </div>
+        <div class="search" id="searchContainer">
+            <img src="img/Search.png" alt="Search Icon" class="search-icon" id="searchIcon">
+            <input type="text" class="search-input" placeholder="ค้นหา...">
+        </div>
+        <div class="dropdown" id="dropdown">
+            <form>
+                <button type="button" onclick="location.href='Login.html'">Login</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="dropdown.js"></script>
+
+</body>
+</html>

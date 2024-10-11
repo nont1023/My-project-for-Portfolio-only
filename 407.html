@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="manu">
+                <a href="index.html">Home</a>
+                <a href="manu/Horror.html">Horror</a>
+                <a href="manu/Anime.html">Anime</a>
+                <a href="manu/Romantic.html">Romantic</a>
+                <a href="manu/Action.html">Action</a>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="content">
+        <h2>407 เที่ยวบินผี</h2>
+    </section>
+
+    <div class="video-container">
+        <video id="myVideo" src="video/407 .mp4" width="1000" ></video>
+        <img id="playPauseBtn" src="img/play-icon.png" alt="Play" class="play" style="cursor:pointer; width: 60px; height: auto;">
+        <input type="range" id="progressBar" value="0" max="100" style="width: 100%; cursor: pointer;">
+    </div>
+    <div class="story">
+        <h4>เรื่องย่อ</h4>
+        <h5> นิว (มาช่า วัฒนพานิช) หัวหน้าแอร์โฮสเตสของสายการบิน Sunset Airlines ที่จะออกเดินทางจาก กรุงเทพ - ภูเก็ต เธอและผู้โดยสารทั้งลำไม่อาจล่วงรู้เลยว่า เที่ยวบินที่ 407 นี้ มีบางสิ่งบางอย่างที่กำลังรออยู่บนเครื่อง
+
+            <br>นิวต้องเผชิญกับเหตุการณ์เหนือธรรมชาติทันทีที่เครื่องบินลอยสู่ท้องฟ้า ไม่ว่าจะเป็นอาการผีเข้าและความน่ากลัวต่าง ๆ ที่ค่อย ๆ คร่าชีวิตผู้โดยสารจนเหลือไม่กี่คน หนึ่งในนั้นก็คือ จำรัส (ปลาย - ปรเมศร์ น้อยอ่ำ) กับ เพ็ญ (เอ - อัญชลี หัสดีวิจิตร) สองสามีภรรยา ในครอบครัวที่ฝ่ายหญิงเป็นใหญ่ กิ๊ฟ (จอย - พัชรี ทับทอง) เด็กเก็บกด หมกมุ่นอยู่กับเกมส์, เวฟ (นะโม ทองกำเหนิด) เด็กหนุ่มชะตาขาดที่ตัดสินใจออกจากบ้านมาตั้งตัวที่ภูเก็ต, แอน (แอปเปิ้ล) หญิงสาวสวยนักท่องเที่ยวชาวฮ่องกง, พระบวชใหม่ ที่ตั้งใจจะสึก (มิค - ราชวัติ ขลิบเงิน) และ ปริ๊นส์ (เอ็กซ์ - ฐิติ เวชบุล) สจ๊วตหนุ่มเกย์แตก ทั้งหมดนี้คือคนที่จะต้อง เผชิญชะตากรรมเดียวกัน...รวมทั้ง แบงค์ (ปีเตอร์ ไนท์) วิศวกรประจำสายการบินผู้หลงรักนิวที่ติดมาในใต้ท้องเครื่องแบบไม่รู้ตัวด้วย</br>
+  
+             <br>พวกเขาตั้งใจที่จะรอดจากวิญญาณเหล่านั้น แต่เหนือกว่านั้นเขาต้องควบคุมจิตตัวเองไม่ให้คลั่งไปกับความหวาดผวา และยังต้องหาวิธีนำเครื่องลงอย่างปลอดภัย</br></h5>
+    </div>
+    
+    <div class="container">
+        <div class="profile">
+            <img src="img/IconPF.png" alt="Profile Picture" class="profile-icon">
+        </div>
+        <div class="search" id="searchContainer">
+            <img src="img/Search.png" alt="Search Icon" class="search-icon" id="searchIcon">
+            <input type="text" class="search-input" placeholder="ค้นหา...">
+        </div>
+        <div class="dropdown" id="dropdown">
+            <form>
+                <button type="button" onclick="location.href='Login.html'">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="dropdown.js"></script>
+
+</body>
+</html>

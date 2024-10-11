@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="manu">
+                <a href="index.html">Home</a>
+                <a href="manu/Horror.html">Horror</a>
+                <a href="manu/Anime.html">Anime</a>
+                <a href="manu/Romantic.html">Romantic</a>
+                <a href="manu/Action.html">Action</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Joker</h2>
+    </section>
+    <div class="video-container">
+        <video id="myVideo" src="video/JOKER - Final Trailer - Now Playing In Theaters.mp4" width="1000" ></video>
+        <img id="playPauseBtn" src="img/play-icon.png" alt="Play" class="play" style="cursor:pointer; width: 60px; height: auto;">
+        <input type="range" id="progressBar" value="0" max="100" style="width: 100%; cursor: pointer;">
+    </div>
+    <div class="story">
+        <h4>เรื่องย่อ</h4>
+        <h5>ผลงานเรื่องราวจุดเริ่มต้นของ “Joker” จากผู้กำกับฯ ทอดด์ ฟิลลิปส์ ที่จะพาไปรู้จักกับโลกของอาร์เธอร์ เฟลค โดยมีการถ่ายทอดการแสดงไว้อย่างน่าประทับใจโดยวาคิน ฟีนิกซ์ อาร์เธอร์เป็นชายคนหนึ่งที่ต้องเผชิญหน้ากับความโหดร้ายทารุณและสังคมที่เต็มไปด้วยการเหยียดหยาม เขาต้องเผชิญกับความอ้างว้างจนเปลี่ยนเขาจากที่เป็นคนอ่อนแอกลายเป็นคนโหดเหี้ยม เขารับจ้างแต่งชุดตัวตลกรายวัน จนกระทั่งคืนหนึ่งที่เขาพยายามจะแสดงตลกเดี่ยว แต่กลับพบว่าตัวเองต่างหากที่เป็นเรื่องตลก เขาไม่เป็นตัวของตัวเองเวลาที่มีผู้คนอยู่รายล้อม ซึ่งเห็นได้จากเสียงหัวเราะที่ควบคุมไม่ได้และดูไม่เหมาะสม ยิ่งเขาพยายามควบคุมเท่าไหร่มันก็ยิ่งแสดงออกมามากขึ้น จนทำให้เขาแสดงความเยาะเย้ยและความรุนแรงออกมา
+
+            <br>อาร์เธอร์ทุ่มเทเวลาไปกับการดูแลแม่ที่ไม่ค่อยแข็งแรง และไขว่คว้าตามหาคนที่เหมาะจะเป็นพ่อซึ่งเขาไม่เคยมีมาก่อน ตั้งแต่นักธุรกิจมหาเศรษฐี โธมัส เวย์น ไปจนถึงพิธีกรรายการทีวีเมอร์เรย์ แฟรงค์ลิน เขาพบว่าตัวเองอยู่ปลายทางระหว่างโลกแห่งความจริงกับความบ้าคลั่ง การตัดสินใจที่ผิดพลาดเพียงครั้งเดียวกลายเป็นชนวนเหตุที่นำไปสู่เหตุการณ์รุนแรงมากมาย</br></h5>
+    </div>
+    <div class="container">
+        <div class="profile">
+            <img src="img/IconPF.png" alt="Profile Picture" class="profile-icon">
+        </div>
+        <div class="search" id="searchContainer">
+            <img src="img/Search.png" alt="Search Icon" class="search-icon" id="searchIcon">
+            <input type="text" class="search-input" placeholder="ค้นหา...">
+        </div>
+        <div class="dropdown" id="dropdown">
+            <form>
+                <button type="button" onclick="location.href='Login.html'">Login</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="dropdown.js"></script>
+
+</body>
+</html>

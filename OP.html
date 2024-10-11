@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="manu">
+                <a href="index.html">Home</a>
+                <a href="manu/Horror.html">Horror</a>
+                <a href="manu/Anime.html">Anime</a>
+                <a href="manu/Romantic.html">Romantic</a>
+                <a href="manu/Action.html">Action</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>One Piece Film Red</h2>
+    </section>
+    <div class="video-container">
+        <video id="myVideo" src="video/One Piece Film RED ｜ ผมแดงผู้นำมาซึ่งบทสรุป - Official T.mp4" width="1000" ></video>
+        <img id="playPauseBtn" src="img/play-icon.png" alt="Play" class="play" style="cursor:pointer; width: 60px; height: auto;">
+        <input type="range" id="progressBar" value="0" max="100" style="width: 100%; cursor: pointer;">
+    </div>
+    <div class="story">
+        <h4>เรื่องย่อ</h4>
+        <h5>เรื่องราวของ “อูตะ” หญิงสาวที่ได้รับการกล่าวขานว่าเป็นเจ้าหญิงแห่งเสียงเพลง ได้ปรากฏตัวต่อสาธารณะและแฟนเพลงของเธอเป็นครั้งแรกเพื่อแสดงสดในงานคอนเสิร์ต ซึ่งลูฟี่กับกลุ่มโจรสลัดหมวกฟางเองก็ได้มาชมเช่นกัน แต่เหตุการณ์ไม่คาดฝันก็เกิดขึ้น ทำให้ความลับของ อูตะ ได้ถูกเปิดเผยว่าแท้จริงแล้วเธอคือลูกสาวของ แชงค์ โจรสลัดผมแดง ทั้งคู่มีเรื่องราวเบื้องหลังในอดีตที่ไม่มีใครเคยล่วงรู้ ก่อนที่เหตุการณ์บางอย่างจะเกิดขึ้นและทำให้พวกเขาต้องแยกจากกัน</h5>
+    </div>
+    <div class="container">
+        <div class="profile">
+            <img src="img/IconPF.png" alt="Profile Picture" class="profile-icon">
+        </div>
+        <div class="search" id="searchContainer">
+            <img src="img/Search.png" alt="Search Icon" class="search-icon" id="searchIcon">
+            <input type="text" class="search-input" placeholder="ค้นหา...">
+        </div>
+        <div class="dropdown" id="dropdown">
+            <form>
+                <button type="button" onclick="location.href='Login.html'">Login</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="dropdown.js"></script>
+
+</body>
+</html>
