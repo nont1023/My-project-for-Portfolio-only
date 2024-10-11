@@ -126,3 +126,46 @@ body{
 .back a:hover{
     text-decoration: underline;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 20px;
+        background-position: top;
+    }
+
+    .wrapper {
+        width: 100%;  /* ปรับขนาด wrapper ให้เต็มจอ */
+        padding: 20px;  /* ลดการ padding เพื่อลดช่องว่าง */
+        border-radius: 10px;
+    }
+
+    .wrapper h1 {
+        font-size: 28px;  /* ลดขนาดฟอนต์ของหัวข้อ */
+    }
+
+    .input-box {
+        margin: 20px 0;  /* ลด margin ของ input */
+    }
+
+    .input-box input {
+        font-size: 14px;  /* ลดขนาดฟอนต์ของ input */
+        padding: 15px 40px 15px 15px;  /* ลด padding ของ input */
+    }
+
+    .input-box i {
+        font-size: 18px;  /* ลดขนาดไอคอน */
+    }
+
+    .wrapper .btn {
+        height: 40px;  /* ลดความสูงของปุ่ม */
+        font-size: 14px;  /* ลดขนาดฟอนต์ของปุ่ม */
+    }
+
+    .wrapper .remember-forgot {
+        font-size: 13px;  /* ลดขนาดฟอนต์ */
+    }
+
+    .wrapper .register-link, 
+    .wrapper .back {
+        font-size: 13px;  /* ลดขนาดฟอนต์ */
+    }
+}
