@@ -152,16 +152,16 @@ body{
     }
 
     .input-box i {
-        font-size: 18px;
+        font-size: 18px; 
     }
 
     .wrapper .btn {
-        height: 40px;
+        height: 40px; 
         font-size: 14px;
     }
 
     .wrapper .remember-forgot {
-        font-size: 13px;
+        font-size: 13px; 
     }
 
     .wrapper .register-link, 
